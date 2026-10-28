@@ -56,7 +56,7 @@ Use these steps to get a local prototype running.
 1. Clone the repository and install dependencies from the repo root:
 
 ```bash
-git clone https://github.com/breathe-nerd/breathe-nerd.git
+git clone https://github.com/Syntek-Collective/breathe-nerd.git
 cd breathe-nerd
 npm install
 ```
@@ -173,3 +173,11 @@ git merge dev
 4. Database is prepared for future breathing-session tracking.
 5. UI is polished and edge cases are handled.
 6. Stretch work starts after the MVP: mood check-in, breathing-session saving, and dashboard.
+
+## Contributing
+
+Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md), and please follow the [Code of Conduct](CODE_OF_CONDUCT.md). To report a security issue, see [SECURITY.md](SECURITY.md).
+
+## License
+
+Breathe Nerd is released under the [MIT License](LICENSE).
