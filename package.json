@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/breathe-nerd/breathe-nerd.git"
+    "url": "git+https://github.com/Syntek-Collective/breathe-nerd.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/breathe-nerd/breathe-nerd/issues"
+    "url": "https://github.com/Syntek-Collective/breathe-nerd/issues"
   },
-  "homepage": "https://github.com/breathe-nerd/breathe-nerd#readme",
+  "homepage": "https://github.com/Syntek-Collective/breathe-nerd#readme",
   "dependencies": {
     "@supabase/supabase-js": "^2.105.4",
     "bcrypt": "^6.0.0",

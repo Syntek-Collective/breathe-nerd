@@ -2,6 +2,17 @@
 
 Engineering practices for this project. Both the author and any AI assistants helping with this codebase should follow these conventions.
 
+Breathe Nerd is open source and lives in the [Syntek Collective](https://github.com/Syntek-Collective) organization. Contributions are welcome. By contributing, you agree that your work is licensed under the [MIT License](LICENSE) and that you will follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Getting Started as a Contributor
+
+1. Check the open issues, or open a new one to discuss your idea before starting larger changes.
+2. Fork the repository and clone your fork.
+3. Follow the setup steps in the [README](README.md#getting-started).
+4. Create a branch from `main` and open your pull request into `main`.
+
+Report security problems privately as described in [SECURITY.md](SECURITY.md), not in a public issue.
+
 ## Commit Messages
 
 Follow the [Conventional Commits](https://www.conventionalcommits.org/) spec: `<type>(<scope>): <short description>`
@@ -38,12 +49,12 @@ This follows the Conventional Commits spec, which is the most common standard in
 
 Before opening a pull request, make sure you have done the following:
 
-1. Pull the latest dev and merge into your branch
+1. Pull the latest main and merge into your branch
 ```bash
-   git switch dev
+   git switch main
    git pull
    git switch your-branch-name
-   git merge dev
+   git merge main
 ```
 2. Run `npm install` to make sure dependencies are up to date
 3. Run `npm run type-check:server` if you touched any server files

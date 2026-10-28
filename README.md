@@ -56,7 +56,7 @@ Use these steps to get a local prototype running.
 1. Clone the repository and install dependencies from the repo root:
 
 ```bash
-git clone https://github.com/breathe-nerd/breathe-nerd.git
+git clone https://github.com/Syntek-Collective/breathe-nerd.git
 cd breathe-nerd
 npm install
 ```
@@ -150,19 +150,19 @@ For a more extensive scaffold see docs/architecture.md.
 
 ## Development Workflow
 
-1. Create a branch from `dev` before starting a feature.
+1. Create a branch from `main` before starting a feature.
 2. Build only the feature or task assigned to that branch.
 3. Test the change locally or with Postman when applicable.
-4. Before opening a pull request, pull the latest `dev` and merge it into your branch.
+4. Before opening a pull request, pull the latest `main` and merge it into your branch.
 5. Push the branch to GitHub.
-6. Open a pull request into `dev`.
+6. Open a pull request into `main`.
 7. Request review
 
 ```bash
-git switch dev
+git switch main
 git pull
 git switch your-branch-name
-git merge dev
+git merge main
 ```
 
 ## Project Milestones
@@ -173,3 +173,11 @@ git merge dev
 4. Database is prepared for future breathing-session tracking.
 5. UI is polished and edge cases are handled.
 6. Stretch work starts after the MVP: mood check-in, breathing-session saving, and dashboard.
+
+## Contributing
+
+Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md), and please follow the [Code of Conduct](CODE_OF_CONDUCT.md). To report a security issue, see [SECURITY.md](SECURITY.md).
+
+## License
+
+Breathe Nerd is released under the [MIT License](LICENSE).
